@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="stylechanger.js"></script>
+        <style>
+            #paragraph {
+                border-style: solid;
+                border-width: 10;
+            }
+            #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: grey;
+            }
+            </style>
+    </head>
+    <body>
+        <h1>EECS 448 Lab Five Exercise Four</h1>
+
+    <div id="paragraph">
+        Paragraph to be altered.
+    </div><br>
+    Border R(0-255): <input type="text" id="border_R" value=""> <br>
+    Border G(0-255): <input type="text" id="border_G" value=""> <br>
+    Border B(0-255): <input type="text" id="border_B" value=""> <br>
+    Border Width: <input type="text" id="border_width" value=""> <br>
+    Background R(0-255): <input type="text" id="bg_R" value=""> <br>
+    Background G(0-255): <input type="text" id="bg_G" value=""> <br>
+    Background B(0-255): <input type="text" id="bg_B" value=""> <br>
+    <button onclick="alert_paragraph_color()">Change the color!</button> <br>
+    </body>
+    <div id="footer">This is a footer.
+        This stays at the bottom of the page.
+    </div>
+</html>
