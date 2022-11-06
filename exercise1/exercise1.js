@@ -6,15 +6,13 @@ o Display informative error message if any of the following occur:
  the passwords are not at least 8 characters long*/
 function validate()
 {
- var pass1 = document.getElementById("pass1").value;
- var pass2 = document.getElementById("pass2").value;
- console.log(pass1.length)
- if (pass1 != pass2){
-    alert('Error: Passwords entered don\'t match!')
- } else if (pass1.length < 8){
-    alert('Error: Passwords are not at least 8 characters long!')
- } else {
-    alert('Passwords match')
- }
-
+   var pass1 = document.getElementById("pass1").value;
+   var pass2 = document.getElementById("pass2").value;
+   if (pass1 != pass2){
+      alert('Error: Passwords entered don\'t match!')
+   } else if (pass1.length < 8){
+      alert('Error: Passwords are not at least 8 characters long!')
+   } else {
+      alert('Passwords match')
+   }
 }
