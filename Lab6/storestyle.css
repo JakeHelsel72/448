@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+    font-family: Comfortaa;
+}
+table{
+    border: 1;
+    width: 40%;
+    align-content: center;
+}
+tr {
+    background-color:aquamarine;
+}
+#nums{
+    background-color: darkcyan;
+}

@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="storestyle.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="formChecker.js"></script>
+</head>
+<body>
+<form action="store.php" onsubmit="return validate()" method="post">
+    <table border=" 1" width="70%" align="center">
+        <tbody><tr>
+            <td colspan="4" align="center">Online Store
+            </td>
+        </tr>
+        <tr>
+            <td width="50% " colspan="2"> Username: <input type="text" id="username" name="username" required=""></td>
+            <td width="50% " colspan="2"> Password: <input type="password" id="password" name="password" required=""></td>
+        </tr>
+        <tr>
+            <td width="80% " colspan="3"> iPhone14 $799.00
+            </td>
+            <td width="20% " colspan="1"> Quantity: <input type="text" id="item1" name="item1" ,="" style="width:50px" required="">
+            </td>
+        </tr>
+        <tr>
+            <td width="80% " colspan="3"> iPad Pro 12.9 inch $999.00
+            </td>
+            <td width="20% " colspan="1"> Quantity: <input type="text" id="item2" name="item2" ,="" style="width:50px" required="">
+            </td>
+        </tr>
+        <tr>
+            <td width="80% " colspan="3"> MacBook Pro 14 inch $2099.00
+            </td>
+            <td width="20% " colspan="1"> Quantity: <input type="text" id="item3" name="item3" ,="" style="width:50px" required="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">Shipping method:
+                <input type="radio" name="shipping" value="Free seven days" checked=""> Free seven days
+                <input type="radio" name="shipping" value="$50.00 overnight"> $50.00 overnight
+                <input type="radio" name="shipping" value="$5.00 three days"> $5.00 three days
+            </td>
+        </tr>
+    </tbody></table>
+
+    <input type="reset" value="Reset" style="width:4.75%;margin-left:75%">
+    <input type="submit" value="Submit" style="width:4.75%;margin-right:10%">
+</form>
+
+
+
+</body></html>
